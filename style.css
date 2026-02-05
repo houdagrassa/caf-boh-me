@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+
+    position: fixed;
+    top: 0;
+    width: 100vh;
+    background-color: rgb(232, 218, 234);
+    padding: 16px;
+    z-index: 1000vh;
+    
+}
+ .nav-link li {
+    display: inline-block;
+    margin: 16px;
+    
+    
+ }
+ .nav-link{
+    text-align: center;
+ }
+ .nav-link a {
+    text-decoration: none;
+    color: rgb(186, 129, 54);
+    /* display: inline-block; */
+    /* font-weight: 500; */
+ }
+ .nav-link a:hover{
+    color: rgb(25, 171, 171);
+    transform: translateY(-10px);
+ }
+ 
+.hero_content p{
+    color: black;
+
+ }
+ .hero{
+   padding-top: 200px;
+    text-align: center;
+    color: black;
+    
+
+ }
